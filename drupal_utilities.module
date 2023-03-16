@@ -19,4 +19,5 @@ function drupal_utilities_field_widget_form_alter(&$element, FormStateInterface 
     }
     $element['entity_browser']['#widget_context']['current_ids'] = implode('+', $ids);
   }
+
 }
